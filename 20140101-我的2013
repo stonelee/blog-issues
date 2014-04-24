@@ -1,0 +1,75 @@
+我的2013
+---
+
+20140101
+
+转眼一年又过去了，回首这一年，我在前端的路上越走越远，有几次贪图远处的风景，踏着路沿石走了出去，但最终还是跌跌撞撞又跑了回来。
+
+## javascript
+
+这一年在深度和广度上都有了不小的成长。
+
+接触jankfree，看了些Chrome以及移动平台调优的文章，看完《高性能JavaScript》，《高性能网站建设指南》，《高性能网站建设进阶指南》，对前端页面性能调优有了初步的认识。
+
+看过《Web前端黑客技术揭秘》、《白帽子讲Web安全》，对前端安全有了初步的认识。
+
+为jquery，underscore提交了pull request，目前都已经被merge了，还被列入了jquery authors，开心！
+
+根据项目需要开发Chrome插件一枚，参考Google出的一款截屏插件的做法，模拟滑动滚动条，在适当位置截图，使用canvas拼合成一张图形，然后自动保存到用户文件系统中，然后返回提示保存成功。研究页面与chrome插件通信技术，直接在页面中对插件进行控制，发现借助dll貌似可以进行任意系统调用。
+
+基于node-webkit做了个浏览器外壳，以实现项目全屏加锁的需求，重点解决远程页面与本机页面的双向通信问题，通过此方式可以为传统的web项目提供本地扩展。
+
+借鉴Raphael，snap.svg的源码，对kjsvg的架构进行了重新设计。
+
+看过《AngularJS》，重新燃起使用angualrjs的想法，用来开发单页面应用真是极好的。看了部分jsgen(angularjs.cn), mean(mongodb + express + angular + node)的代码，学习angularjs，redis，mongodb的使用方法。
+
+给《Ext JS 4 Plugin and Extension Development》、《ExtJS Data-Driven Application Design》做技术评审。
+
+对node又一次起了兴趣。看了些express，connect，nodejs-express-mongoose-demo的代码，目前正在看《深入浅出Node.js》。
+
+使用socket.io做了一个简单的实时游戏，并部署到heroku中。
+
+接触了Yeoman， 以及三兄弟Yo、Grunt和Bower，还有sass和Compass，已经成为我日常开发工作流不可或缺的一部分。
+
+看完《Core HTML5 Canvas》，算是了解了一下canvas。
+
+## CSS
+
+将kjui调到了IE6兼容。
+
+对kjGrid进行响应式设计。
+
+
+## 设计
+
+在项目中尝试着设计了几个页面，自己觉得还是不太满意，还需要继续努力。
+
+
+## mobile
+
+了解foundation，hammer.js，topcoat，effeckt.css。
+
+使用sencha touch开发了个记账小程序，使用phonegap打包成了本地应用。
+
+使用angular + bootstrap3 + localstorage重新做了下记账小程序。
+
+发现ionic框架，基于angular，可用于搭建mobile应用，貌似不错，值得关注。
+
+## php
+
+阴错阳差玩了一段时间drupal，从《The Definitive Guide to Drupal 7》入门界面操作，从《drupal 7 module development》学习模块开发，看完examples，配置了几个常用控件，做了个简单的cms系统，这样就算上手php了。
+
+## 其他
+
+看过《暗时间》、《批评中医》、《拆掉思维里的墙》、《思考的乐趣》
+
+2013年，我买房了，总算有了家的感觉。
+
+2013年，LP怀孕了，期待小生命的降临。
+
+
+![2013](https://f.cloud.github.com/assets/571863/1837007/121d7152-7418-11e3-9583-15661959c738.png)
+
+## 未来
+
+继续在前端这条不归路上探索吧，移动HTML5开发还有更多的坑等着去踩。希望有时间能对后端（node），移动端（android，ios）有更深的了解，成为一个全栈攻城狮。
